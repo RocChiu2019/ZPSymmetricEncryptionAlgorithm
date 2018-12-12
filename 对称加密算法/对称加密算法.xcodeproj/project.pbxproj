@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D6157D21BFFDBB00ADE0D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6157C21BFFDBB00ADE0D7 /* AppDelegate.m */; };
+		75D6158021BFFDBB00ADE0D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6157F21BFFDBB00ADE0D7 /* ViewController.m */; };
+		75D6158321BFFDBB00ADE0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D6158121BFFDBB00ADE0D7 /* Main.storyboard */; };
+		75D6158521BFFDBD00ADE0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D6158421BFFDBD00ADE0D7 /* Assets.xcassets */; };
+		75D6158B21BFFDBD00ADE0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6158A21BFFDBD00ADE0D7 /* main.m */; };
+		75D6159621C0169F00ADE0D7 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D6159521C0169F00ADE0D7 /* EncryptionTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75D6157821BFFDBB00ADE0D7 /* 对称加密算法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "对称加密算法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D6157B21BFFDBB00ADE0D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D6157C21BFFDBB00ADE0D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D6157E21BFFDBB00ADE0D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75D6157F21BFFDBB00ADE0D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75D6158221BFFDBB00ADE0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D6158421BFFDBD00ADE0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D6158921BFFDBD00ADE0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D6158A21BFFDBD00ADE0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D6159421C0169F00ADE0D7 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		75D6159521C0169F00ADE0D7 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D6157521BFFDBB00ADE0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D6156F21BFFDBB00ADE0D7 = {
+			isa = PBXGroup;
+			children = (
+				75D6157A21BFFDBB00ADE0D7 /* 对称加密算法 */,
+				75D6157921BFFDBB00ADE0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D6157921BFFDBB00ADE0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D6157821BFFDBB00ADE0D7 /* 对称加密算法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D6157A21BFFDBB00ADE0D7 /* 对称加密算法 */ = {
+			isa = PBXGroup;
+			children = (
+				75D6157B21BFFDBB00ADE0D7 /* AppDelegate.h */,
+				75D6157C21BFFDBB00ADE0D7 /* AppDelegate.m */,
+				75D6159421C0169F00ADE0D7 /* EncryptionTools.h */,
+				75D6159521C0169F00ADE0D7 /* EncryptionTools.m */,
+				75D6157E21BFFDBB00ADE0D7 /* ViewController.h */,
+				75D6157F21BFFDBB00ADE0D7 /* ViewController.m */,
+				75D6158121BFFDBB00ADE0D7 /* Main.storyboard */,
+				75D6158421BFFDBD00ADE0D7 /* Assets.xcassets */,
+				75D6158921BFFDBD00ADE0D7 /* Info.plist */,
+				75D6158A21BFFDBD00ADE0D7 /* main.m */,
+			);
+			path = "对称加密算法";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D6157721BFFDBB00ADE0D7 /* 对称加密算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D6158E21BFFDBD00ADE0D7 /* Build configuration list for PBXNativeTarget "对称加密算法" */;
+			buildPhases = (
+				75D6157421BFFDBB00ADE0D7 /* Sources */,
+				75D6157521BFFDBB00ADE0D7 /* Frameworks */,
+				75D6157621BFFDBB00ADE0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "对称加密算法";
+			productName = "对称加密算法";
+			productReference = 75D6157821BFFDBB00ADE0D7 /* 对称加密算法.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D6157021BFFDBB00ADE0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "赵鹏";
+				TargetAttributes = {
+					75D6157721BFFDBB00ADE0D7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 75D6157321BFFDBB00ADE0D7 /* Build configuration list for PBXProject "对称加密算法" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D6156F21BFFDBB00ADE0D7;
+			productRefGroup = 75D6157921BFFDBB00ADE0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D6157721BFFDBB00ADE0D7 /* 对称加密算法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D6157621BFFDBB00ADE0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D6158521BFFDBD00ADE0D7 /* Assets.xcassets in Resources */,
+				75D6158321BFFDBB00ADE0D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D6157421BFFDBB00ADE0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D6159621C0169F00ADE0D7 /* EncryptionTools.m in Sources */,
+				75D6158021BFFDBB00ADE0D7 /* ViewController.m in Sources */,
+				75D6158B21BFFDBD00ADE0D7 /* main.m in Sources */,
+				75D6157D21BFFDBB00ADE0D7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D6158121BFFDBB00ADE0D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D6158221BFFDBB00ADE0D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D6158C21BFFDBD00ADE0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75D6158D21BFFDBD00ADE0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D6158F21BFFDBD00ADE0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "对称加密算法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D6159021BFFDBD00ADE0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "对称加密算法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D6157321BFFDBB00ADE0D7 /* Build configuration list for PBXProject "对称加密算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D6158C21BFFDBD00ADE0D7 /* Debug */,
+				75D6158D21BFFDBD00ADE0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D6158E21BFFDBD00ADE0D7 /* Build configuration list for PBXNativeTarget "对称加密算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D6158F21BFFDBD00ADE0D7 /* Debug */,
+				75D6159021BFFDBD00ADE0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D6157021BFFDBB00ADE0D7 /* Project object */;
+}
